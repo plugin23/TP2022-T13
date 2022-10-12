@@ -4,16 +4,17 @@
 **Dátum**: Utorok - 4.10 2022  
 **Čas strenutia**: 9:00  
 **Miesto stretnutia**: FIIT STU Miestnosť 5.04  
+**Zapisovateľ**: Jakub Sorád
 
 ## Prítomnosť
 
-- **Ing. Jakub Dubec** - prítomný
-- **Bc. Rastislav Balcerčík** - prítomný, pripojený cez online meeting zo zdravotných dôvodov
-- **Bc. Daniel Cok** - prítomný
-- **Bc. Matej Lánik** - prítomný
-- **Bc. Jakub Sorád** - prítomný
-- **Bc. Róbert Szabó** - prítomný, pripojený cez online meeting zo zdravotných dôvodov
-- **Bc. Juraj Valiček** - prítomný
+- [x] **Ing. Jakub Dubec**
+- [x] **Bc. Rastislav Balcerčík** - pripojený cez online meeting zo zdravotných dôvodov
+- [x] **Bc. Daniel Cok**
+- [x] **Bc. Matej Lánik**
+- [x] **Bc. Jakub Sorád**
+- [x] **Bc. Róbert Szabó** - pripojený cez online meeting zo zdravotných dôvodov
+- [x] **Bc. Juraj Valiček**
 
 ## Priebeh stretnutia
 
