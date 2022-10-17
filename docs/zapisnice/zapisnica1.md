@@ -1,7 +1,7 @@
 # Zápisnica stretnutia č.1
 
-**Vedúci tímu**: Ing. Jakub Dubec  
 **Dátum**: Utorok - 4.10 2022  
+**Vedúci tímu**: Ing. Jakub Dubec  
 **Čas strenutia**: 9:00  
 **Miesto stretnutia**: FIIT STU Miestnosť 5.04  
 **Zapisovateľ**: Jakub Sorád
