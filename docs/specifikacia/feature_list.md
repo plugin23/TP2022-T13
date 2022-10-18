@@ -43,3 +43,5 @@ Aplikácia umožní exportovanie PDF súboru(jeho stiahnutie používateľom).
 ### Výber konkrétnych strán na export
 
 Pri prezeraní súboru môže používateľ vybrať iba konkrétne strany, ktoré chce exportovať.
+
+*Autor: Róbert Szabó*
