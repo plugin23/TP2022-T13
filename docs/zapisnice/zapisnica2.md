@@ -1,6 +1,6 @@
 # Zápisnica stretnutia č.2
 
-**Dátum**: Utorok - 11.10 2022
+**Dátum**: Utorok - 11.10 2022  
 **Vedúci tímu**: Ing. Jakub Dubec    
 **Čas strenutia**: 9:00  
 **Miesto stretnutia**: FIIT STU Knižnica - zasadacia miesťnosť  

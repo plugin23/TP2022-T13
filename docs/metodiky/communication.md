@@ -43,5 +43,8 @@ Tiež obsahuje hlasové-video kanály:
 
 V rámci tímového projektu máme vytvorený spoločnou mailovú adresu **t16tp22@gmail.com**, na ktorú má každý člen tímu prístup a v prípade potreby kontaktovať nás ako tím, je vhodné použiť práve túto mailovú adresu, ktorá je pravidelne kontrolovaná.
 
+*Autor: Jakub Sorád*
+
+
 
 
