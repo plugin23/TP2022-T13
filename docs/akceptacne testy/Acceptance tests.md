@@ -64,7 +64,7 @@
 |**Postup**| Používateľ vyznačí časť dokumentu, alebo klikne na odkaz na citovaný text. Dokument následne zobrazí všetky zdroje v označenom texte, ktoré sú citované bez potreby posúvania sa na spodnú časť dokumentu.  |
 | **Výsledok** | PASS/FAIL |
 
-####  Vstupný test č.9 Generovanie citácií - viem si zvolit ake citacie chcem vygenerovat - zvolit bud textom alebo stranou 
+####  Vstupný test č.9
 |   |   |
 |---|---|
 |**Vstupné podmienky**| Používateľ má otvorené PDF v systéme Elvíra. |
