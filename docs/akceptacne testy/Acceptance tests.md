@@ -87,3 +87,5 @@
 | **Výstupné podmienky** | Používateľ má úspešne exportované vybrané strany z PDF. |
 |**Postup**| Používateľ si vo zvolenom pdf na lište rozklikne možnosť Export, kde si zvolí export konkrétnych strán a ďalšie parametre. Následne zvolí strany dokumentu, ktoré bude chcieť exportovať a stlačením tlačidla sa mu exportuje PDF súbor zvolených strán podľa zadaných kritérií. |
 | **Výsledok** | PASS/FAIL |
+
+*Autor: Matej Lánik*
