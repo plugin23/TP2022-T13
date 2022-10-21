@@ -21,8 +21,8 @@ git clone https://github.com/user/EvilFlowersViewer.git
 
 - **`master`** - východzia vetva obsahujúca kód v produkcii
 - **`dev`** - vývojová vetva (staging prostedie), obsahujúca kód vo vývoji
-- **`feat/<číslo tasku v Jire alebo krátky-popis-funkcionality>`** - pridávanie nových funkcionalít, ktoré sa mergujú do `dev` vetvy
-- **`fix/<číslo tasku v Jire alebo krátky-popis-chyby>`** - opravy chýb
+- **`feat/<číslo tasku v Jire>`** - pridávanie nových funkcionalít, ktoré sa mergujú do `dev` vetvy
+- **`fix/<číslo tasku v Jire>`** - opravy chýb
 
 ### Užitočné príkazy na prácu s vetvami
 
@@ -99,4 +99,6 @@ Podobne aj do poznámok release sa uvádza popis k novým funkcionalitám.
 
 Po vytvorení nového releasu s konkrétnym tagom verzie **GitHub** spustí akciu, ktorá aplikáciu pripraví (build) na publikovanie
 a po dokončení buildu je vypublikuje do [npm.js](https://npmjs.com/).
+
+*Autor: Rastislav Balcerčík*
 
