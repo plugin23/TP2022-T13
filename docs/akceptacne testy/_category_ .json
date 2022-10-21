@@ -1,8 +1,0 @@
-{
-  "label": "Akceptačné testy",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Testy na overenie, či bolo zadanie úspešne splnené."
-  }
-}
