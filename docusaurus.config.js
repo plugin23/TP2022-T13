@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/T16.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -51,7 +51,7 @@ const config = {
         title: 'TP16',
         logo: {
           alt: 'Tímový projekt',
-          src: 'img/logo.svg',
+          src: 'img/T16.svg',
         },
         items: [
           {
@@ -83,12 +83,24 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Dokumenty',
             items: [
+              {
+                label: 'Metodiky',
+                to: 'docs/category/metodiky',
+              },
+              {
+                label: 'Špecifikácie',
+                to: 'docs/category/špecifikácia',
+              },
+              {
+                label: 'Zápisnice',
+                to: 'docs/category/zápisnice',
+              },
             ],
           },
           {
-            title: 'Community',
+            title: 'Projekt',
             items: [
               {
                 label: 'GitHub',
@@ -96,15 +108,15 @@ const config = {
               },
             ],
           },
-          {
-            title: 'More',
+          /*{
+            title: 'MoUbre',
             items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
             ],
-          },
+          },*/
         ],
         copyright: `Copyright © ${new Date().getFullYear()} T16`,
       },
