@@ -1,6 +1,7 @@
-# Zápisnica stretnutia č.1
+# Zápisnica stretnutia č.1.1
 
 **Dátum**: Utorok - 4.10 2022  
+**Typ stretnutia**: Stretnutie vedúceho tímu a členov tímu  
 **Vedúci tímu**: Ing. Jakub Dubec  
 **Čas strenutia**: 9:00  
 **Miesto stretnutia**: FIIT STU Miestnosť 5.04  
@@ -33,5 +34,5 @@ Spoločne sme sa stretli v miestnosti v plánovaný čas. Po úvodnom zoznámen�
 - Spoločne sa stretnúť s vedúcim knižnice FIIT STU
 - Vybrať technológiu pre vytvorenie tímového webu
 - Vybrať si projekt manažment tool
-- Vytvorenie základného feture setu projektu
+- Vytvorenie základného feature setu projektu
 - Výber version control toolu

@@ -1,7 +1,8 @@
-# Zápisnica stretnutia č.3
+# Zápisnica stretnutia č.3.1
 
 **Dátum**: Utorok - 18.10 2022  
-**Vedúci tímu**: Ing. Jakub Dubec    
+**Typ stretnutia**: Stretnutie vedúceho tímu a členov tímu    
+**Vedúci tímu**: Ing. Jakub Dubec      
 **Čas strenutia**: 9:00  
 **Miesto stretnutia**: FIIT STU Knižnica - zasadacia miesťnosť  
 **Zapisovateľ**: Jakub Sorád
