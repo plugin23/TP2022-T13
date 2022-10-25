@@ -17,8 +17,8 @@
 
 .logo {
   font-size: 25px;
-  fill: var(--ifm-font-color-base);;
-  stroke: var(--ifm-font-color-base);;
+  fill: #e3e3e3;
+  stroke: #e3e3e3;
 }
 
 .titlecol {
@@ -29,14 +29,14 @@
   text-align: left;
   font-size: 70px;
   font-weight: 700;
-  color: var(--ifm-font-color-base);
+  color: #e3e3e3;;
 }
 
 .subtitle {
   text-align: left;
   font-size: 60px;
   font-weight: 500;
-  color: var(--ifm-font-color-base);
+  color: #e3e3e3;;
 }
 
 @media screen and (max-width: 996px) {
