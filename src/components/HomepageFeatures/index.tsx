@@ -62,19 +62,15 @@ const TeamList: MemberItem[] = [
 const ProjectList: ProjectItem[] = [
   {
     logo: '',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae quam tempus arcu luctus faucibus. Ut tincidunt elit id tellus molestie laoreet at sit amet quam. Quisque pretium consequat elit, et sodales ex consequat eu. Nam sed maximus dolor. Fusce a lorem mollis, tempor magna et, consectetur nulla. Mauris vitae dui at mi aliquam vehicula vel luctus mi.',
+    description: 'Cieľom projektu je navrhnúť a podľa požiadaviek používateľov digitálnej knižnice Elvíra implementovať zabezpečenú verziou PDF zobrazovača, ktorý ponúkne používateľovi príjemné používateľské rozhranie s bežnými funkcionalitami pre manipuláciu s dokumentom.',
   },
   {
     logo: '',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae quam tempus arcu luctus faucibus. Ut tincidunt elit id tellus molestie laoreet at sit amet quam. Quisque pretium consequat elit, et sodales ex consequat eu. Nam sed maximus dolor. Fusce a lorem mollis, tempor magna et, consectetur nulla. Mauris vitae dui at mi aliquam vehicula vel luctus mi.',
-  },
-  {
-    logo: '',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae quam tempus arcu luctus faucibus. Ut tincidunt elit id tellus molestie laoreet at sit amet quam. Quisque pretium consequat elit, et sodales ex consequat eu. Nam sed maximus dolor. Fusce a lorem mollis, tempor magna et, consectetur nulla. Mauris vitae dui at mi aliquam vehicula vel luctus mi.',
+    description: 'PDF Viewer bude obohatený o možnosť generovania citácií, editácie a zdieľania podľa požiadaviek čítateľa. Hotová aplikácia bude open-source riešenie dostupné ako npm balíček a implementovaná tak aby bola použiteľná na webe postavenom najmodernejšími frameworkami a knižnicami ako napr. React, Vue alebo Angular.',
   },
 ];
 
-//  {styles.firstImage:css.includes('xl')}
+
 function Member({css, title, role, imageUrl}: MemberItem) {
   return (
     <div className={clsx(`${(css.includes('xl')) ? 'col-xl-12': 'col col--6'}`)}>
