@@ -4,10 +4,39 @@
  */
 
 .heroBanner {
-  padding: 24rem 0;
+  padding: 12rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+.rowheight {
+  min-height: 30rem;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
+  fill: #e3e3e3;
+  stroke: #e3e3e3;
+}
+
+.titlecol {
+  margin-left: 10rem;
+}
+
+.title {
+  text-align: left;
+  font-size: 70px;
+  font-weight: 700;
+  color: #e3e3e3;;
+}
+
+.subtitle {
+  text-align: left;
+  font-size: 60px;
+  font-weight: 500;
+  color: #e3e3e3;;
 }
 
 @media screen and (max-width: 996px) {
@@ -21,3 +50,4 @@
   align-items: center;
   justify-content: center;
 }
+
