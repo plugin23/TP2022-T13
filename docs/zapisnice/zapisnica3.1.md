@@ -1,4 +1,4 @@
-# Zápisnica stretnutia č.3.1
+# Zápisnica stretnutia č. 3.1
 
 **Dátum**: Utorok - 18.10 2022  
 **Typ stretnutia**: Stretnutie vedúceho tímu a členov tímu    
@@ -19,7 +19,7 @@
 
 ## Priebeh stretnutia
 
-Stretnutie prebiehalo v knižničnej zasadacej miestnosti. Na stretnutí sme riešili stav aktuálneho špritnu, konzultovali nejasnosti k niektorým úlohám a úlohy, ktoré nás ešte v aktuálnom šprinte čakajú. Na záver stretnutia sme diskutovali o tímovom webe a vyhotovili sme fotografie tímu, ktoré sa budú nachádzať v sekcii O nás.
+Stretnutie prebiehalo v knižničnej zasadacej miestnosti. Na stretnutí sme riešili stav aktuálneho šprintu, konzultovali nejasnosti k niektorým úlohám a úlohy, ktoré nás ešte v aktuálnom šprinte čakajú. Na záver stretnutia sme diskutovali o tímovom webe a vyhotovili sme fotografie tímu, ktoré sa budú nachádzať v sekcii O nás.
 
 ## Stav predošlých úloh
 
