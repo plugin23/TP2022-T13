@@ -1,4 +1,4 @@
-# Zápisnica stretnutia č.1.2
+# Zápisnica stretnutia č. 1.2
 
 **Dátum**: Streda - 5.10 2022    
 **Typ stretnutia**: Stretnutie členov tímu    

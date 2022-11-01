@@ -1,4 +1,4 @@
-# Zápisnica stretnutia č.1.1
+# Zápisnica stretnutia č. 1.1
 
 **Dátum**: Utorok - 4.10 2022  
 **Typ stretnutia**: Stretnutie vedúceho tímu a členov tímu  
