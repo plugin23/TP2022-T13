@@ -46,6 +46,16 @@ Pri jasné identifikovaniu stavu issue budeme používať štyri typy stavov:
 - **QA** - stav, kedy je vytvorený pull request a prebieha kontrola, validácia členmi a Scrum mastrom.
 - **Done** - issue, ktoré je uspešne vyriešený, fixnutý alebo  implementovaný
 
+Worklow pre *Epic a Stories* je nasledovný:
+
+
+![Story/Epic workflow](@site/static/img/story_epic_workflow.png) 
+
+Workflow pre *Task a Bug* je nasledovný:
+
+
+![Task/Bug workflow](@site/static/img/task_bug_workflow.png)
+
 ## Pridelovanie story pointov
 
 Každý task bude mať pridelený určitý počet Story pointov. Story pointy určujú a sú používané ako meradlo veľkosti/náročnosti tasku. V našom projektovom manažmentu budeme používať počet od 1 po 6, pričom:
