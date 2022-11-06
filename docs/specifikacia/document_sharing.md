@@ -9,6 +9,8 @@ Potrebujeme sa zamyslieť aj nad konkrétnym spôsobom zdieľania dokumentu,
 aby bolo jednoduché ho zdieľať pre konkrétnu skupinu ľudí a
 zároveň nebolo pre študenta príliš zložité, resp. zdĺhavé sa k zdieľanému dokumentu dostať.
 
+## Navrhnutý proces
+
 Proces by prebiehal vygenerovaním linku, ktorý by smeroval k zdieľanému dielu, 
 prípadne jeho konkrétnom úseku, ktorý chceme zazdieľať adresátom.
 Pri zdieľaní by boli možnosti ako zazdieľať celý dokument, či jeho konkrétnu stranu alebo rozsah. 
@@ -19,6 +21,8 @@ obsahoval by tento link. Táto možnosť môže byť užitočná ak pedagóg je 
 Pre otvorenie diela by bolo potrebné byť prihlásený do systému a teda aj 
 v prípade získania linku na zdieľanie inou skupinou, máme istotu, že stále by sa k nemu 
 dokázali dostať iba používatelia s prístupom do systému.
+
+## Pridanie sekcie "Zdieľané so mnou"
 
 Dobrým prírastkom v systéme by bolo aj vytvorenie kategórie "Zdieľané so mnou", kde 
 by používateľ dokázal nájsť všetky diela, ktoré boli s ním zdieľané.
