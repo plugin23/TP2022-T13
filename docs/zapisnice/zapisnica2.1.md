@@ -1,7 +1,8 @@
-# Zápisnica stretnutia č.2
+# Zápisnica stretnutia č. 2.1
 
-**Dátum**: Utorok - 11.10 2022  
-**Vedúci tímu**: Ing. Jakub Dubec    
+**Dátum**: Utorok - 11.10 2022    
+**Typ stretnutia**: Stretnutie vedúceho tímu a členov tímu    
+**Vedúci tímu**: Ing. Jakub Dubec      
 **Čas strenutia**: 9:00  
 **Miesto stretnutia**: FIIT STU Knižnica - zasadacia miesťnosť  
 **Zapisovateľ**: Jakub Sorád
@@ -33,7 +34,7 @@ sme na stretnutí riešili stav úloh z minulého týžňa a plánovali sme úlo
 
 - Pridať tasky do Jiry a v tento deň odštartovať šprint č.1
 - K taskom priradiť story pointy a jednotlivých členov
-- Pracovať na tímovej webstránke (logo, skecia o nás, dizajnové vylepšenia a úpravy)
+- Pracovať na tímovej webstránke (logo, sekcia o nás, dizajnové vylepšenia a úpravy)
 - Vytvoriť metodiku verziovania
 - Vytvoriť metodiku komunikácie
 - Vypracovať základný feature list (aspoň titulné názvy jednotlivej featury)

@@ -10,8 +10,29 @@
   width: 200px;
 }
 
+.firstImage {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 25%;
+}
 .imageStyle {
   border-radius: 50%;
   overflow: hidden;
   width: 40%;
+}
+
+.rowwidth {
+  min-width: 20rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  min-width: auto;
+  text-align: left;
+  align-items: center;
+}
+
+.about_project {
+  margin: 5rem 0rem;
 }
