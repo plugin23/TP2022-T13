@@ -11,22 +11,14 @@ zároveň nebolo pre študenta príliš zložité, resp. zdĺhavé sa k zdieľan
 
 ## Navrhnutý proces
 
-Proces by prebiehal vygenerovaním linku, ktorý by smeroval k zdieľanému dielu, 
-prípadne jeho konkrétnom úseku, ktorý chceme zazdieľať adresátom.
-Pri zdieľaní by boli možnosti ako zazdieľať celý dokument, či jeho konkrétnu stranu alebo rozsah. 
-Automaticky by sa mohla doplniť strana, na ktorej sa aktuálne nachádzame.
-Okrem linku by sa dalo vygenerovať aj QR kód, ktorý by si študenti mohli naskenovať a
-obsahoval by tento link. Táto možnosť môže byť užitočná ak pedagóg je priamo so 
-študentmi v miestnosti a vie im priamo takto poskytnúť zazdieľané dielo.
-Pre otvorenie diela by bolo potrebné byť prihlásený do systému a teda aj 
-v prípade získania linku na zdieľanie inou skupinou, máme istotu, že stále by sa k nemu 
-dokázali dostať iba používatelia s prístupom do systému.
+Proces prebieha vygenerovaním linku, ktorý smeruje k zdieľanému dielu, 
+prípadne jeho konkrénemu úseku, ktorý zdieľame adresátom a obsahuje taktiež informáciu o zdieľaní.
+Tieto informácie budú zahashované pre udržanie normálnej dĺžky linku.
+Pri zdieľaní sú možnosti zazdieľať celý dokument, či jeho konkrétnu stranu alebo rozsah. 
+Automaticky sa doplní strana, na ktorej sa používateľ nachádza.
+Okrem linku sa dá vygenerovať aj QR kód. Pre otvorenie diela je potrebné byť prihlásený do systému a teda aj 
+v prípade získania linku na zdieľanie inou skupinou, máme istotu, že stále sa k nemu 
+dokážu dostať iba používatelia s prístupom do systému.
 
-## Pridanie sekcie "Zdieľané so mnou"
-
-Dobrým prírastkom v systéme by bolo aj vytvorenie kategórie "Zdieľané so mnou", kde 
-by používateľ dokázal nájsť všetky diela, ktoré boli s ním zdieľané.
-Diela by do tejto kategórie pribudli po ich otvorení cez zdieľací link a žiadnym iným spôsobom. 
-Prípadným vylepšením pre používateľa by mohla byť možnosť si interne dielo 
-"označiť" napríklad skratkou predmetu, kde je dielo potrebné.
+*Autor: Juraj Valiček*
 
