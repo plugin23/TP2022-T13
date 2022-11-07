@@ -2,7 +2,7 @@
 
 Podrobnosti o jednotlivých úlohách a ich stavu sú k dispozícií vo vygenerovanom a vyexportovanom PDF súbore z nástroja Jira.
 
-Export s podrobnými informáciami - [:closed_book: Šprint č.1](@site/sprintExportsPDF/sprintExport1.pdf).
+Export s podrobnými informáciami - [:closed_book: Šprint č.1](@site/static/pdf/sprintExport1.pdf).
 
 ## Burndown graf šprintu
 
