@@ -38,3 +38,5 @@ Kryptografia s verejným kľúčom je mimoriadne užitočná na vytvorenie bezpe
 ## Priklad pouzitia
 
 ![alt text](https://www.thesslstore.com/blog/wp-content/uploads/2020/07/how-pki-works-overview.png "PKI example")
+
+*Autor: Daniel Cok*
