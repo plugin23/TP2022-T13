@@ -29,7 +29,12 @@ Kryptografia s verejným kľúčom je mimoriadne užitočná na vytvorenie bezpe
 
 ## Pouzitie v pythone
 
-### Libraries
+### Kniznice
 
 - **`cryptography`** - vygeneruje par public/private RSA kľúčov
 - **`cryptosyspki`** - vygeneruje par public/private SHA-256
+- **`ssl`** - šifrovaný prenos dát medzi front-endom a back-endom
+
+## Priklad pouzitia
+
+![alt text](https://www.thesslstore.com/blog/wp-content/uploads/2020/07/how-pki-works-overview.png "PKI example")
