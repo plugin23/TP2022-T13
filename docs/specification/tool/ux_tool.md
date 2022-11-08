@@ -13,6 +13,6 @@ Miro je online nástroj, ktorý umožňuje kolaboratívnu prácu na bielych tabu
 
 ## Zhrnutie
 
-Na návrh používateľského rozhrania sme sa rozhodli používať nástroj Figma. Figma je nástroj priamo vytvorený na navrhovanie používateľského rozhrania a jeho bezplatné funkcie nám plne postačujú. Najdôležitejšia je pre nás možnosť kolaboratívne spolupracovať na návrhu grafického rozhrania. Obmedzené možnosti komunikácie nie sú pre nás významné, nakoľko budeme komunikovať tak, ako je popísané v [metodike komunikácie](../metodiky/communication.md).
+Na návrh používateľského rozhrania sme sa rozhodli používať nástroj Figma. Figma je nástroj priamo vytvorený na navrhovanie používateľského rozhrania a jeho bezplatné funkcie nám plne postačujú. Najdôležitejšia je pre nás možnosť kolaboratívne spolupracovať na návrhu grafického rozhrania. Obmedzené možnosti komunikácie nie sú pre nás významné, nakoľko budeme komunikovať tak, ako je popísané v [metodike komunikácie](../../methodology/communication.md).
 
 *Autor: Róbert Szabó*

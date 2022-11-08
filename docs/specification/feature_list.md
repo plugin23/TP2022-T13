@@ -1,4 +1,4 @@
-# Feature list
+# Zoznam funkcionalít
 
 ## Vykresľovanie PDF
 
