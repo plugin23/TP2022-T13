@@ -21,4 +21,3 @@ Z grafu môžeme vidieť, ako sa nám podarilo plniť úlohy a je to vyjadrené 
 
 
 *Autor: Jakub Sorád*
-
