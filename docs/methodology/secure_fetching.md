@@ -1,7 +1,7 @@
-# Metodika bezpecneho fetchovania
+# Bezpečné fetchovanie
 
 Tento dokument obsauje strucny popis, ako zvysit bezpecnost komunikacie medzi back-endom a front-endom.
-Nakolko je nas back-end implementovany v jazyku python, budeme sa primarne sustredit na pouzitie prave v pythone.
+Nakolko je nas back-end implementovany v jazyku Python, budeme sa primarne sustredit na pouzitie prave v Pythone.
 
 ## Čo je to kryptografia s verejným kľúčom (public key cryptography)?
 
