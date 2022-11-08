@@ -14,13 +14,15 @@ zároveň nebolo pre študenta príliš zložité, resp. zdĺhavé sa k zdieľan
 Proces prebieha vygenerovaním linku, ktorý smeruje k zdieľanému dielu, 
 prípadne jeho konkrénemu úseku, ktorý zdieľame adresátom.
 Link obsahuje informácie o diele, zdieľanom rozsahu a expiračnej dobe linku.
-Expiračná doba zdieľacieho linku bude rok. 
-Tieto informácie budú zahashované pre udržanie normálnej dĺžky linku.
+Expiračnú dobu linku nastaví používateľ, ktorý zdieľa dielo.
+Tieto informácie budú zašifrované do uid64 pre udržanie normálnej dĺžky linku a obštrukcii informácii v ňom.
 Pri zdieľaní sú možnosti zazdieľať celý dokument, či jeho konkrétnu stranu alebo rozsah. 
 Automaticky sa doplní strana, na ktorej sa používateľ nachádza.
 Okrem linku sa dá vygenerovať aj QR kód. Pre otvorenie diela je potrebné byť prihlásený do systému a teda aj 
 v prípade získania linku na zdieľanie inou skupinou, máme istotu, že stále sa k nemu 
-dokážu dostať iba používatelia s prístupom do systému.
+dokážu dostať iba používatelia s prístupom do systému. 
+Zdieľané dielo sa bude vytvárať ako ďalšie PDF, ktoré 
+bude obsahovať okrem ďalších, tiež informáciu o tom kto ho zdieľal v QR vodoznaku.
 
 
 ![SeqDiagram](@site/static/img/share_sequence.png) 
