@@ -50,3 +50,5 @@ bude vyzerať následovne: **`TTTTTT`**.
 - Pre zakázanie funkcionalít zdieľania a tlačenia dokumentu, reťazec vyzerá následovne: **`TTFFTT`**
 
 - Ak sú všetky funkcionality zakázané, reťazec vyzerá následovne: **`FFFFFF`**
+
+*Autor: Rastislav Balcerčík*

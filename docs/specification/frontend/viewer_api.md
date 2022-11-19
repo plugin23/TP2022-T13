@@ -153,3 +153,5 @@ Volaním funkcie `shareDocument` sa spustí proces zdieľania dokumentu - vytvor
 platnosťou špecifikovanou v argumente funkcie. Ten sa následne zobrazí v dialógovom okne spolu s QR kódom tejto URL.
 
 `number` - životnosť prístupovej URL v minútach, `-1` pre URL s nekončiaciou platnosťou
+
+*Autor: Rastislav Balcerčík*
