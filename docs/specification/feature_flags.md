@@ -13,42 +13,43 @@ Keďže každý dokument bude obsahovať viacero možností na povolenia alebo z
 funkcionalít, pridávať stĺpce do tabuľky `acquisitions` alebo `entries` nie je najvhodnejšie riešenie,
 pretože štruktúra by sa len zväčšovala a strácala na prehľadnosti.
 
-Najvhodnejším riešením sa pri väčšom počte povolení zdá byť symbolická notácia, ktorou zbytočne
-nepridávame ďalšie stĺpce, pre každé povolenie do tabuliek ale použijeme len jeden jediný stĺpec
-`permissions` alebo `features`, ktorý obsahuje reťazec znakov. Keďže pracujeme s SQL databázou,
-stĺpec je typu `varchar` s dĺžkou *n*.
+Najvhodnejším riešením sa pri väčšom počte povolení zdá byť *JSON* štruktúra, ktorou zbytočne
+nepridávame ďalšie stĺpce ale použijeme len jeden stĺpec typu `jsonb`, ktorý obsahuje objekt s
+`key: value` pármi, kde `key` je názov povolenia a `value` hodnota, ktorá bližšie špecifikuje spravanie.
+Použitím tohto typu stĺpca dosiahneme, že nad stĺpcom vieme robiť
+rôzne operácie, napr. nájsť dokumenty, ktoré majú zakázané zdieľanie.
 
-## Štruktúra symblickej notácie
+## Štruktúra povolení
 
-Raťazec obsahuje príznaky `T` - ak je funkcionalita povolená alebo `F` - ak je zakázaná. 
-Takáto štruktúra je jednoducho rozšíriteľná a udržateľná.
-Všetky funkcionality sú implicitne povolené. Reťazec obsahuje *n* po sebe nasledujúcich znakov,
-kde *n* je počet povolení v nasledujúcom poradí:
-
-- **Textová vrstva** - povoľuje pri zobrazovaní PDF
+- **text_layer** - povoľuje pri zobrazovaní PDF
   renderovanie textovej vrstvy
 
-- **Anotačná vrstva** - umožňuje pri zobrazovaní PDF
+- **annotation_layer** - umožňuje pri zobrazovaní PDF
   renderovanie anotačnej vrstvy, ak nejaká v dokumente existuje
 
-- **Tlač dokumentu** - funkcionalita, ktorá na front-ende povoľuje
+- **print** - funkcionalita, ktorá na front-ende povoľuje
   zobrazenie tlačidla pre tlač dokumentu
 
-- **Zdieľanie dokumentu** - povoľuje na front-ende zdieľanie alebo export dokumentu
+- **share** - povoľuje na front-ende zdieľanie alebo export dokumentu
 
-- **Generovanie citácii** - povoľuje čítateľovi generovať citácie
+- **citations** - povoľuje čítateľovi generovať citácie
 
-- **Renderovanie po stranách** - nastavením tohto povolenia na `T` spôsobí, že dokument
+- **render_type** - nastavením tohto povolenia na **1** spôsobí, že dokument
   sa na front-ende vyrenderuje po stranách (používateľ uvidí len jednu stranu). Ak je nastavené na
-  `F` - dokument sa vyrenderuje celý a používateľ môže scrollovať celý dokument naraz.
+  **2** - dokument sa vyrenderuje celý a používateľ môže scrollovať celý dokument naraz. Číslovanie je
+  zameniteľné za iný typ, napr. `string`. V budćnosti je možné pridávať ďalšie spôsoby renderovania.
 
-## Príklad symbolickej notácie
+## Príklad štruktúry
 
-- Ak administrátor povolí všetky funkcionality pre dokument, reťazec znakov v symbolickej notácii
-bude vyzerať následovne: **`TTTTTT`**.
-
-- Pre zakázanie funkcionalít zdieľania a tlačenia dokumentu, reťazec vyzerá následovne: **`TTFFTT`**
-
-- Ak sú všetky funkcionality zakázané, reťazec vyzerá následovne: **`FFFFFF`**
+```json
+{
+  text_layer: true,
+  annotation_layer: true,
+  print: false,
+  share: false,
+  citations: true,
+  render_type: 1
+}
+```
 
 *Autor: Rastislav Balcerčík*
