@@ -68,3 +68,5 @@ s ním na nižšej úrovni ako je napr. preberanie dokumentov a zabezpečenie,
 kvôli čomu naše riešenie budeme stavať práve na ňom a nechávame si 
 otvorené dvere aj pre vlastné UI a UX, ktoré budeme primárne
 implementovať podľa požiadavok používateľov Elvíry.
+
+*Autor: Rastislav Balcerčík*
