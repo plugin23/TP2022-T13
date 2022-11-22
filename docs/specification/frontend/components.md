@@ -19,3 +19,5 @@ Predstavuje rozhranie, ktorým komponenty pristupujú ku funkcionalitám Viewera
 o rozhranie, ktoré pristupuje k funkcionalitám ako je napr. renderovanie strán,
 manipulácia s dokumentom, navigácia alebo textové operácie pomocou high-level
 funkcií.
+
+*Autor: Jakub Sorád*

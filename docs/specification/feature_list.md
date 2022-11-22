@@ -14,7 +14,7 @@ Cieľom je vytvoriť riešenie na vykreslovanie PDF súboru, avšak naša aplik�
 
 ## Manipulácia s PDF
 
-Aplikácia umožní priamu manipuláciu s PDF súborom a jeho obsahom. Dôležitou vlastnosťou bude možnosť zakázať tieto funkcionality pre konkrétne súbory, v závislosti od licenčných podmienok daného súboru.
+Aplikácia umožní priamu manipuláciu s PDF súborom a jeho obsahom. Napríklad podčiarknutie textu, označovanie textu, pridávanie textu vo forme poznámok. Dôležitou vlastnosťou bude možnosť zakázať tieto funkcionality pre konkrétne súbory, v závislosti od licenčných podmienok daného súboru.
 
 ### Search
 
@@ -23,6 +23,10 @@ Aplikácia umožní vyhľadávanie textu v PDF súbore.
 ### Zoom
 
 Aplikácia umožní priblíženie strany PDF súboru. 
+
+### Fit to page
+
+PDF zobrazovač pri tejto funkcionalite zobrazí dokument na veľkosť takú, aby bol viditeľný v maximálnej šírke monitora/displeja
 
 ### Zobrazovanie metadát o dokumente
 
