@@ -2,7 +2,7 @@
 Pri zdieľaní dokumentu sa používateľovi vygeneruje link a QR kód. Vďaka tomuto linku/QR kódu bude môcť svoj dokument zdieľať s ďalšími používateľmi. Cieľom tohto QR kódu bude uľahčenie načítania dokumentu pre používateľa, ktorý má k dispozícii QR reader. Keďže informácia v QR kóde nie je nijakým spôsobom utajovaná pred používateĽmi, nemusia byť šifrované.
 
 ## Dáta v zdieľacom QR kóde
-V QR kóde sa bude nachádzať iba url, ktorá bude linkom na zdieľaný dokument.
+V QR kóde sa bude nachádzať iba url, ktorá bude linkom na zdieľaný dokument. V tomto QR kóde sa musí nachádzať čo najmenej dát, aby bol čo najjednoduchší na načítanie QR readermi. 
 
 - **url** - link URL k dokumentu, ktorý bol zdieľaný
 
