@@ -39,6 +39,6 @@ Na záver sme si priebežne dohodli čas a miestnosť stretnutia na ďalší tý
 ## Naplánované úlohy
 
 - do konca šprintu treba dokončiť zvyšné úlohy
-- zapracovať na dodadočných pripomienkach k procesom
+- zapracovať na dodatočných pripomienkach k procesom
 - začať pripravovať tasky a naplánovať vývoj budúceho šprintu
 
