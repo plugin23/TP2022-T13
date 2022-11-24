@@ -10,7 +10,8 @@ Prvá polovica šprintu a samotný priebeh opäť nebol aktívny. V tomto čase 
 ktoré medzi sebou zdieľali niekoľko rovnakých problémov a teda sa na týchto taskoch pracovalo. Avšak opäť bol aj ďalší štátny sviatok a tak niektorí členovia tímu boli bohužiaľ
 opäť odcestovaní. 
 
-Úlohy sme spravili v požadovanej kvalite, niektoré úlohy búdú ešte doplnené a vylepšené v treťom šprinte. Len jedna jediná viacmenej kolektívna úloha bola v stave progresu. Dopracujeme ju v nasledujúcom šprinte. 
+Úlohy sa splnili na dobrej úrovni, pričom sa vyjasnilo aj niekoľko procesných nejasností vo fungovaní Elvíry s jej backendom. Do ďalšieho šprintu sa neprenášala žiadna úloha. 
+Pokračuje sa navrhnutím posledných procesov, analýzou niekoľkých funkcionalít a vytvára sa základný codebase pre implementáciu.
 
 ![Burndown3](@site/static/img/burndown3.png) 
 
