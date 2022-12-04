@@ -39,3 +39,5 @@ M. Zahid, Z. Mehmmod and I. Inayat, "Evolution in software architecture recovery
 13th International Conference on Emerging Technologies (ICET), 2017, pp. 1-6, doi: 10.1109/ICET.2017.8281704.
 ```
 
+*Autor: Juraj Valiček*
+
