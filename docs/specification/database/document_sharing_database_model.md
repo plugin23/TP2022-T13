@@ -16,7 +16,7 @@ Pridanie tabuľky **user_acquisitions** s flagom pre zdieľanie s nasledovnými 
 - **created_at**: timestamp with timezone
 - **`<FK>` user_id**: uuid
 - **`<FK>` acquisition_id**: uuid
-- **is_shared**: boolean
+- **type**: enum - *personal*,*shared*
 - **expire_at**: timestamp with timezone
 - **share_page_range**: int4multirange
 - **url**: text
