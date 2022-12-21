@@ -13,7 +13,7 @@ Pomocou knižnice [citation-js](https://citation.js.org/) dokážeme zo získan�
 formáte CSL-JSON vygenerovať citáciu BiBTeX. Pre IEEE citáciu si vytvoríme náš vlastný parser 
 z formátu CSL-JSON, keďže potrebné informácie sa zhodujú s BiBTeX citáciou.
 Schéma formátu CSL-JSON je v [Github](https://github.com/citation-style-language/schema/blob/master/schemas/input/csl-data.json) 
-repozitári citation-js knižnice.
+repozitári Citation Style Language (CSL).
 
 ### Formát BiBTeX citácie
 
