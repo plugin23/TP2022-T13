@@ -7,11 +7,11 @@ rozposielanie chránených PDF dokumentov. Spôsob, aký budeme aplikovať v na�
 
 Bude sa skladať z podstatných dát, ktoré v prípade neopráveného nakladania s PDF dokumentom slúžia na jednoznačnú identifikáciu. Typ dát, ktoré použijeme je inšpirovaný a nadväzuje na [databázový model](@site/static/img/evil_flowers_catalog.png) Evil Flowers.
 
-- `user_id` - identifikátor používateľa, pre ktorého je dokument vygenerovaný. V prípade neoprávneného rozosielania vieme jednoznačne zistiť, ktorý používateľ dokument rozposlal alebo robil úkony, ktoré nie sú v súlade s pravidlami.
-- `document_id` - identifikátor dokumentu (knihy, zbierky a pod.)
-- `document_title` - názov dokumentu
-- `secured` - true/false hodnota obsahujúca infomáciu, či je dokument Open Access alebo nie
-- `generated_at` - časová pečiatka vo forme dátumu, kedy bol dokument pre používateľa vygenerovaný. 
+- `id` - identifikátor dokumentu/akvizície (knihy, zbierky a pod.)
+- `creator_id` - identifikátor používateľa, pre ktorého je dokument vygenerovaný. V prípade neoprávneného rozosielania vieme jednoznačne zistiť, ktorý používateľ dokument rozposlal alebo robil úkony, ktoré nie sú v súlade s pravidlami.
+- `title` - názov dokumentu
+- `is_public` - true/false hodnota obsahujúca infomáciu, či je dokument Open Access alebo nie
+- `created_at` - časová pečiatka vo forme dátumu, kedy bol dokument pre používateľa vygenerovaný. 
 
 ## Spôsob generovania watermarku
 
@@ -25,10 +25,10 @@ Ukladať a pracovať s dátami v JSON formáte v komnbinácii s QR kódom sa jav
 {
     "id": 99565656, 
     "user_id": 564521654, 
-    "document_id": 989556, 
-    "document_title": "Nazov knihy",
-    "secured": true, 
-    "generated_at": "2022-11-191-15:08:29.9072"
+    "acquisition_id": 989556, 
+    "title": "Nazov knihy",
+    "is_public": true, 
+    "created_at": "2022-11-191-15:08:29.9072"
 }
 ```
 
@@ -51,10 +51,10 @@ import json
 data = {
     "id": 99565656, 
     "user_id": 564521654, 
-    "document_id": 989556, 
-    "document_title": "Nazov knihy",
-    "secured": True, 
-    "generated_at": "2022-11-191-15:08:29.9072"
+    "acquisition_id": 989556, 
+    "title": "Nazov knihy",
+    "is_public": True, 
+    "created_at": "2022-11-191-15:08:29.9072"
 }
  
 # Instance of QR code class
@@ -107,10 +107,10 @@ import json
 data = {
     "id": 99565656, 
     "user_id": 564521654, 
-    "document_id": 989556, 
-    "document_title": "Nazov knihy",
-    "secured": True, 
-    "generated_at": "2022-11-191-15:08:29.9072"
+    "acquisition_id": 989556, 
+    "title": "Nazov knihy",
+    "is_public": True, 
+    "created_at": "2022-11-191-15:08:29.9072"
 }
 dataJSON = json.dumps(data)
 ```
@@ -134,27 +134,17 @@ print("Decrypted Data: ", decryptedData)
 
 *Výstup z konzoli:*
 ```console
-Original Data:  {"id": 99565656, "user_id": 564521654, "document_id": 989556, "document_title": "Nazov knihy", "secured": true, "generated_at": "2022-11-191-15:08:29.9072"}
+Original Data:  {"id": 99565656, "user_id": 564521654, "acquisition_id": 989556, "title": "Nazov knihy","is_public": true, "created_at": "2022-11-191-15:08:29.9072"}
 
 Encrypted Data:  b'gAAAAABje9qgbm-ST3bQeezKsujFDpOWRPn4N8NKXK4l0bNwHIijy35vrV89a-s2HzxU7otApaiYPOnURtCw_zcB_XD7IsebQxFUmACx7ULWdjaByVZ0bEMTfWQMiIEzphwnL116f_4j...'
 
-Decrypted Data:  {"id": 99565656, "user_id": 564521654, "document_id": 989556, "document_title": "Nazov knihy", "secured": true, "generated_at": "2022-11-191-15:08:29.9072"}
+Decrypted Data:  {"id": 99565656, "user_id": 564521654, "acquisition_id": 989556, "title": "Nazov knihy","is_public": true, "created_at": "2022-11-191-15:08:29.9072"}
 ```
 
 ## Vizualizácia vodoznaku v dokumente
 
-V navrhovaní vodoznaku na stranách PDF dokumentu sa zamýšlame nad dvoma spôsobmi zobrazenia QR kódu. 
-Jednou z alternatív je zobrazenie QR kódu, ktorý:
-- **má vačšiu veľkosť**
-- **má upravenú priehladnosť**
-- **zasahuje do samotného textu**
-
-*Ukážka strany PDF dokumentu:*
-
-![QR_code_lowopacity](@site/static/img/watermark_qrcode_lowopacity.png) 
-
-Druhá alternatíva ma nasledovné vlastnosti:
-- **menšia veľkosť**
+Nami navrhnutý vodoznak má nasledovné vlastnosti:
+- **malá veľkosť**
 - **nepriehladnosť**
 - **nezasahuje do textu dokumentu**
 
@@ -162,8 +152,8 @@ Druhá alternatíva ma nasledovné vlastnosti:
 
 ![QR_code_fullopacity](@site/static/img/watermark_qrcode_fullopacity.png) 
 
-Pre vylepšenie ochrany dokumentov by bolo možné aplikovať generovanie QR kódu (či už prvá alebo druhá alternatíva) takým štýlom, že na každej strane by sa nachádzal na inej pozícií, čo by mohlo stažiť a znechutiť používateľovi, aby rozposielal a prekopirovával strany.
+Pre vylepšenie ochrany dokumentov by bolo možné aplikovať generovanie QR kódu takým štýlom, že na každej strane by sa nachádzal na inej pozícií, čo by mohlo stažiť a znechutiť používateľovi, aby rozposielal a prekopirovával strany.
 
-V našom projekte použijeme druhú alternatívu a budeme zobrazovať menší QR kód, ktorý nebude zasahovať do textu. Z hľadiska vizuálneho aj implementačného je to podľa nášho uváženia vhodnejšie riešenie.
+V našom projekte budeme zobrazovať menší QR kód, ktorý nebude zasahovať do textu. Z hľadiska vizuálneho aj implementačného je to podľa nášho uváženia vhodné riešenie.
 
 *Autor: Jakub Sorád*

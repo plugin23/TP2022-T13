@@ -21,6 +21,11 @@
   stroke: #e3e3e3;
 }
 
+.fiitlogo {
+  display: flex;
+  justify-content: center;
+}
+
 .titlecol {
   margin-left: 10rem;
 }

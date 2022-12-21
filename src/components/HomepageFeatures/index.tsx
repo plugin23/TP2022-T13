@@ -64,6 +64,9 @@ export default function HomepageFeatures(): JSX.Element {
         </p>
         <div className={clsx("row", styles.about_project)}>
           <p className="col">
+            Projekt Elvíra - Digitálna knižnica je vyvýjaný na STU FIIT a práca 
+            na tomto projekte je evaluovaná v rámci ročníkového predmetu Tímový projekt.
+            <br/>
             Cieľom projektu je navrhnúť a podľa požiadaviek používateľov
             digitálnej knižnice Elvíra implementovať zabezpečenú verziou PDF
             zobrazovača, ktorý ponúkne používateľovi príjemné používateľské

@@ -2,7 +2,13 @@
 sidebar_position: 1
 ---
 
+
 # Elvíra - T16
+
+Projekt Elvíra - Digitálna knižnica je vyvýjaný na STU FIIT a práca 
+na tomto projekte je evaluovaná v rámci ročníkového predmetu Tímový projekt.
+
+![STU FIIT logo](@site/static/img/STU-FIIT-nfh.png)
 
 Cieľom projektu je navrhnúť a podľa požiadaviek používateľov digitálnej knižnice 
 Elvíra implementovať zabezpečenú verziou PDF zobrazovača, 
@@ -17,3 +23,4 @@ na webe postavenom najmodernejšími frameworkami a knižnicami ako napr. React,
 V nasledujúcich kapitolách sa nachádza dokumentácia celého nášho projektu, 
 teda uplatnené metodiky, retrospektívy šprintov, technická špecifikácia aplikácie 
 a zápisnice z našich stretnutí.
+

@@ -21,6 +21,12 @@ function HomepageHeader() {
             <h2 className={styles.subtitle}>Digitálna knižnica</h2>
           </div>
         </div>
+        <div className={clsx('row')}>
+          <div className={clsx('col', styles.fiitlogo)}>
+            <img src={require("@site/static/img/STU-FIIT-ncb.png").default} />
+          </div>
+          
+        </div>
       </div>
     </header>
   );
