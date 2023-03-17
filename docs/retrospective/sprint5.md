@@ -1,4 +1,4 @@
-# Retrospetíva šprintu č. 4
+# Retrospetíva šprintu č. 5
 
 Podrobnosti o jednotlivých úlohách a ich stavu sú k dispozícií vo vygenerovanom a vyexportovanom PDF súbore z nástroja Jira.
 
@@ -15,6 +15,8 @@ textu na textovej vrstve. Vytvoril sa vzorový PDF dokument, ktorý obsahuje rô
 Úlohy naväzujúce sa plnili úspešne vďaka dobrému plánovaniu a komunikácii členov tímu. Nesplnené úlohy ostali publikácia balíku a priamo na to naväzujúce nasadenie ukážky aplikácie na webe projektu, vytvorenie prvých poznámok verzie a jej otestovanie.
 
 ![Burndown5](@site/static/img/burndown5.png)
+
+## Záverečná sumarizácia
 
 | **S čím sme boli spokojní**                 | **Čo treba zlepšiť**                            |
 | ------------------------------------------- | ----------------------------------------------- |
