@@ -36,3 +36,5 @@ Stretnutie sme ukončili diskusiou o predmete a našich dojmoch z jeho priebehu.
 
 - implementácia funkcionalít do existujúceho dizajnu
 - postupná tvorba dokumentácia pre prvú publikovanú verziu
+
+_Autor: Juraj Valiček_
