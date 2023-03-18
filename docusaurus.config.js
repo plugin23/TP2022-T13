@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'T16',
   tagline: 'Tímový projekt',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://tp2022-t16.evilflowers.org/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'EvilFlowersCatalog', // Usually your GitHub org/user name.
-  projectName: 'TP2022-T13', // Usually your repo name.
+  projectName: 'TP2022-T16', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -75,6 +75,11 @@ const config = {
           {
             href: 'https://github.com/EvilFlowersCatalog/EvilFlowersViewer',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: '/components/DemoViewer/Demo',
+            label: 'Demo',
             position: 'right',
           },
         ],
