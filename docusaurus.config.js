@@ -37,6 +37,7 @@ const config = {
           editUrl:
             'https://github.com/EvilFlowersCatalog/EvilFlowersViewer',
         },
+        
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -78,7 +79,7 @@ const config = {
             position: 'right',
           },
           {
-            href: '/components/DemoViewer/Demo',
+            href: '/Demo',
             label: 'Demo',
             position: 'right',
           },
