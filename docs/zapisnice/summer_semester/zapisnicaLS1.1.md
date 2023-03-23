@@ -1,19 +1,19 @@
 # Zápisnica stretnutia č. 1.1
 
 **Dátum**: Štvrtok - 16.2 2022  
-**Typ stretnutia**: Stretnutie vedúceho tímu a členov tímu   
-**Vedúci tímu**: Ing. Jakub Dubec     
-**Čas strenutia**: 10:00     
-**Miesto stretnutia**: FIIT STU Meeting room - 5. poschodie   
+**Typ stretnutia**: Stretnutie vedúceho tímu a členov tímu  
+**Vedúci tímu**: Ing. Jakub Dubec  
+**Čas strenutia**: 10:00  
+**Miesto stretnutia**: FIIT STU Meeting room - 5. poschodie  
 **Zapisovateľ**: Jakub Sorád
 
 ## Prítomnosť
 
 - [x] **Ing. Jakub Dubec**
-- [x] **Bc. Rastislav Balcerčík** 
+- [x] **Bc. Rastislav Balcerčík**
 - [ ] **Bc. Daniel Cok**
 - [x] **Bc. Matej Lánik**
-- [x] **Bc. Jakub Sorád** - pripojený online 
+- [x] **Bc. Jakub Sorád** - pripojený online
 - [x] **Bc. Róbert Szabó**
 - [x] **Bc. Juraj Valiček**
 
@@ -29,11 +29,14 @@ Dôležitou úlohou bude odštartovanie šprintu a hlavne vytvorenie taskov na a
 Otvorili sme aj tému navigácie podľa kapitol. Túto základnú a žiadanú funkcionalitu sme v zimnom semestri kompletne prehliadli. Bolo by viac ako vítané, aby sme túto funkcionalitu pri samotnej implementácii a výslednom produkte zarhnuli do našich plánov. Zároveň vedúci tímu Jakub poznamenal, že nemáme zabúdať na konfigurovateľnosť riešenia, ktoré budeme v tomto semestri implementovať.
 
 ## Stav projektu
+
 - projekt je navrhnutý
 - Evil Flowers takmer dokončený
 
-
 ## Naplánované úlohy
+
 - dohodnút si stretnutie členov tímu
 - odkonzultovať si navzájom a vytvoriť tasky
 - odštartovať šprint
+
+_Autor: Jakub Sorád_
