@@ -1,4 +1,4 @@
-# Zápisnica stretnutia č. 3.1
+# Zápisnica stretnutia č. 4.1
 
 **Dátum**: Štvrtok - 23.3 2022  
 **Typ stretnutia**: Stretnutie vedúceho tímu a členov tímu  
