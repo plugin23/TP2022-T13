@@ -77,6 +77,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: '/demo',
+            label: 'Demo',
+            position: 'right',
+          }
         ],
       },
       footer: {
