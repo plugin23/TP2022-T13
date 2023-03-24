@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -34,8 +34,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/EvilFlowersCatalog/EvilFlowersViewer',
+          editUrl: 'https://github.com/EvilFlowersCatalog/EvilFlowersViewer',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,13 +63,13 @@ const config = {
             type: 'doc',
             docId: '/category/zápisnice',
             position: 'left',
-            label: 'Zápisnice'
+            label: 'Zápisnice',
           },
           {
             type: 'doc',
             docId: '/category/metodiky',
             position: 'left',
-            label: 'Metodiky'
+            label: 'Metodiky',
           },
           {
             href: 'https://github.com/EvilFlowersCatalog/EvilFlowersViewer',
@@ -81,7 +80,7 @@ const config = {
             href: '/demo',
             label: 'Demo',
             position: 'right',
-          }
+          },
         ],
       },
       footer: {
@@ -130,6 +129,19 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require('tailwindcss'))
+          postcssOptions.plugins.push(require('autoprefixer'))
+          return postcssOptions
+        },
+      }
+    },
+  ],
+}
 
-module.exports = config;
+module.exports = config
