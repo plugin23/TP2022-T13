@@ -4,7 +4,7 @@ specifiers:
   '@docusaurus/core': 2.1.0
   '@docusaurus/module-type-aliases': 2.1.0
   '@docusaurus/preset-classic': 2.1.0
-  '@evilflowers/evilflowersviewer': ^0.1.1
+  '@evilflowers/evilflowersviewer': ^0.1.2
   '@mdx-js/react': ^1.6.22
   '@tsconfig/docusaurus': ^1.0.5
   autoprefixer: ^10.4.14
@@ -27,7 +27,7 @@ dependencies:
 
 devDependencies:
   '@docusaurus/module-type-aliases': 2.1.0_react-dom@18.2.0+react@18.2.0
-  '@evilflowers/evilflowersviewer': 0.1.1
+  '@evilflowers/evilflowersviewer': 0.1.2
   '@tsconfig/docusaurus': 1.0.7
   autoprefixer: 10.4.14_postcss@8.4.21
   postcss: 8.4.21
@@ -2463,8 +2463,8 @@ packages:
       - webpack-cli
     dev: false
 
-  /@evilflowers/evilflowersviewer/0.1.1:
-    resolution: {integrity: sha512-RQAT7Vu7+m99EhmLJPSXXShZ82d48mrpnUqnVA3cIhWYtmpBkinQncRRCP4+v2Ywg04FlVBZcr/TBEY2u9+vXw==}
+  /@evilflowers/evilflowersviewer/0.1.2:
+    resolution: {integrity: sha512-8lKwmJpOvKdFXFp71ktiVIxe/wD3QvtIRDP9yWDnRfqtOT/YyDiw3VCkYJCyGMWy0YqbYoiYlRO25ySN9KHuGQ==}
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
