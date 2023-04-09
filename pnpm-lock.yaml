@@ -4,7 +4,6 @@ specifiers:
   '@docusaurus/core': 2.1.0
   '@docusaurus/module-type-aliases': 2.1.0
   '@docusaurus/preset-classic': 2.1.0
-  '@evilflowers/evilflowersviewer': ^0.1.2
   '@mdx-js/react': ^1.6.22
   '@tsconfig/docusaurus': ^1.0.5
   autoprefixer: ^10.4.14
@@ -27,7 +26,6 @@ dependencies:
 
 devDependencies:
   '@docusaurus/module-type-aliases': 2.1.0_react-dom@18.2.0+react@18.2.0
-  '@evilflowers/evilflowersviewer': 0.1.2
   '@tsconfig/docusaurus': 1.0.7
   autoprefixer: 10.4.14_postcss@8.4.21
   postcss: 8.4.21
@@ -2462,13 +2460,6 @@ packages:
       - uglify-js
       - webpack-cli
     dev: false
-
-  /@evilflowers/evilflowersviewer/0.1.2:
-    resolution: {integrity: sha512-8lKwmJpOvKdFXFp71ktiVIxe/wD3QvtIRDP9yWDnRfqtOT/YyDiw3VCkYJCyGMWy0YqbYoiYlRO25ySN9KHuGQ==}
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    dev: true
 
   /@hapi/hoek/9.3.0:
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}
@@ -6939,6 +6930,7 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
 
   /react-error-overlay/6.0.11:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
@@ -7059,6 +7051,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
 
   /read-cache/1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
@@ -7334,6 +7327,7 @@ packages:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
 
   /schema-utils/2.7.0:
     resolution: {integrity: sha512-0ilKFI6QQF5nxDZLFn2dMjvc4hjg/Wkg7rHd3jK6/A4a1Hl9VFdQWvgB1UMGoU94pad1P/8N7fMcEnLnSiju8A==}
