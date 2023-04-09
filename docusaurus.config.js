@@ -77,7 +77,7 @@ const config = {
             position: 'right',
           },
           {
-            href: '/demo',
+            href: 'https://dev--darling-cascaron-e53cee.netlify.app/',
             label: 'Demo',
             position: 'right',
           },
