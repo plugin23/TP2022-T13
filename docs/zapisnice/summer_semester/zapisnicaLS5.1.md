@@ -12,10 +12,8 @@
 - [x] **Ing. Jakub Dubec**
 - [x] **Bc. Rastislav Balcerčík**
 - [x] **Bc. Daniel Cok**
-- [] **Bc. Matej Lánik**
 - [x] **Bc. Jakub Sorád**
 - [x] **Bc. Róbert Szabó**
-- [] **Bc. Juraj Valiček**
 
 ## Priebeh stretnutia
 
