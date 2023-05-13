@@ -1,6 +1,6 @@
 # Zápisnica stretnutia č. 6.1
 
-**Dátum**: Štvrtok - 20.4. 2022  
+**Dátum**: Štvrtok - 20.4. 2023  
 **Typ stretnutia**: Stretnutie vedúceho tímu a členov tímu  
 **Vedúci tímu**: Ing. Jakub Dubec  
 **Čas strenutia**: 10:00  
